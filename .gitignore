@@ -50,3 +50,25 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Project-specific files
+# Compiled executables
+dinamica_molas
+dinamica_nmolas
+
+# Simulation output files
+dinamica_mola.txt
+dinamica_n_molas.txt
+*.txt
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
